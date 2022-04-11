@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.allbtn{
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid beige;
+    padding: 5px 20px;
+}
+.model{
+    max-width: 800px;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 6px;
+    position: relative;
+    margin: 20px auto;
+    z-index: 2;
+}
+
+.btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.hidden{
+display: none;
+}
+.overlay{
+    background-color: rgba(46, 38, 38, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#togglePassword, #id_password{
+    background-color: red;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <div class="main">
+    <div class="buttons">
+      <div class="allbtn">Button 1</div>
+      <div class="allbtn">Button 2</div>
+      <div class="allbtn">Button 3</div>
+    </div>
+
+    <div class="model hidden">
+        <div class="btn">X</div>
+      <p>
+        What does Lorem ipsum dolor sit amet consectetuer adipiscing elit sed
+        diam nonummy nibh euismod tincidunt ut laoreet dolore mean in English?
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna. Lorem Ipsum is
+        simply dummy text of the printing and typesetting industry. ... It has
+        survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+  </div>
+
+  <form method="post">
+    Username
+    <input type="text" name="username" autofocus="" autocapitalize="none" autocomplete="username" required="" id="id_username">
+    Password
+    <input type="password" name="password" autocomplete="current-password" required="" id="id_password">
+    <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;">toggle pass</i>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>
